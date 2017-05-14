@@ -124,6 +124,13 @@ function isGreaterThan(aa, bb){
  * @param {number} b
  * @return {boolean} `a` is smaller than `b`
  */
+function isLessThan(aa,bb){
+  if(aa<bb){
+    return true;
+  }else{
+    return false;
+  }
+}
 
 
 /**
