@@ -139,7 +139,13 @@ function isLessThan(aa,bb){
  * @param {number} b
  * @return {boolean} the numbers are equal
  */
-
+function areEqual(aa,bb){
+  if(aa === bb){
+    return true;
+  }else{
+    return false;
+  }
+}
 
 /**
  * Returns the smallest value of two numbers.
@@ -147,6 +153,13 @@ function isLessThan(aa,bb){
  * @param {number} y
  * @return {number} the smallest number
  */
+ function minimum(aa,bb){
+  if(aa<bb){
+    return aa;
+  }else{
+    return bb;
+  }
+ }
 
 
 /**
@@ -155,7 +168,13 @@ function isLessThan(aa,bb){
  * @param {number} y
  * @return {number} the largest number
  */
-
+function maximum(aa,bb){
+  if(aa>bb){
+    return aa;
+  }else{
+    return bb;
+  }
+}
 
 /**
  * Returns true if `n` is even.
