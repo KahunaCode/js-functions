@@ -32,7 +32,9 @@ function decrease(cc){
  * @param {number} y
  * @return {number} the sum
  */
-
+function add(aa, bb){
+  return aa+bb
+}
 
 /**
  * Subtracts the second number from the first.
