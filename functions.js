@@ -3,13 +3,18 @@
  * @param {number} n
  * @return {string} the number as a string
  */
-
+function numberToString(aa){
+  return aa.toString()
+}
 
 /**
  * Adds one to a given number.
  * @param {number} n
  * @return {number}
  */
+ function increase(bb){
+  return bb+=1
+ }
 
 
 /**
