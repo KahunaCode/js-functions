@@ -238,8 +238,13 @@ function isOdd(aa){
  * @return {object} restaurant
  */
 
-function incrementReviews(){
-
+function incrementReviews(restaurant){
+  if(restaurant.reviews){
+    restaurant.reviews+=1;
+  }else{
+    restaurant.reviews=1;
+  }
+  return restaurant;
 }
 
 /**
@@ -248,7 +253,9 @@ function incrementReviews(){
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
-
+function combine(aa,bb){
+  return aa +  " " + bb;
+}
 
 /**
  * Returns a circle object with the properties `circumference` and `area`.
@@ -257,4 +264,10 @@ function incrementReviews(){
  * @param {number} radius
  * @return {object} circle
  */
+
+function createCircle(radius){
+  circle = {circumference : (2 * Math.PI * radius), area : (Math.PI * radius*radius)};
+  return circle;
+}
+
 
