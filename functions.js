@@ -22,7 +22,9 @@ function numberToString(aa){
  * @param {number} n
  * @return {number}
  */
-
+function decrease(cc){
+  return cc-=1
+}
 
 /**
  * Adds two numbers.
