@@ -53,7 +53,9 @@ function add(aa, bb){
  * @param {number} y
  * @return {number} the product
  */
-
+function multiply(aa, bb){
+  return aa*bb
+}
 
 /**
  * Divides the first number by the second.
@@ -61,13 +63,18 @@ function add(aa, bb){
  * @param {number} y
  * @return {number} the quotient
  */
-
+function divide(aa,bb){
+  return aa/bb
+}
 
 /**
  * Multiplies a number by itself.
  * @param {number} x, number to be squared
  * @return {number} squared
  */
+ function square(aa){
+  return aa*aa
+ }
 
 
 /**
