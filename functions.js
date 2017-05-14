@@ -85,7 +85,24 @@ function divide(aa,bb){
  * @param {number} y
  * @return {number} the result
  */
-
+function calculate(operation, aa, bb){
+  if (operation === "add"){
+    console.log(aa + " " + "+" + " " + bb + " " + "=" + " " + (aa+bb));
+    return aa + bb;
+  }
+  if (operation === "subtract"){
+    console.log(aa + " " + "-" + " " + bb + " " + "=" + " " + (aa-bb));
+    return aa - bb;
+  }
+  if (operation === "multiply"){
+    console.log(aa + " " + "*" + " " + bb + " " + "=" + " " + (aa*bb));
+    return aa*bb;
+  }
+  if (operation === "divide"){
+    console.log(aa + " " + "/" + " " + bb + " " + "=" + " " + (aa/bb));
+    return aa/bb;
+  }
+}
 
 /**
  * Returns true if `a` is greater than `b`.
