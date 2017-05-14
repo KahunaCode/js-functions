@@ -42,6 +42,9 @@ function add(aa, bb){
  * @param {number} y
  * @return {number} the difference
  */
+ function subtract(aa,bb){
+  return aa-bb
+ }
 
 
 /**
