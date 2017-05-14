@@ -214,6 +214,21 @@ function isOdd(aa){
  * @return {string} the score represented as a letter grade
  */
 
+ function letterGrade(score,total){
+  aa = (score/total)*100;
+  if(aa>=90){
+    return "A";
+  }else if(90>aa && aa>=80){
+    return "B";
+  }else if(80>aa && aa>=70){
+    return "C";
+  }else if(70>aa && aa>=60){
+    return "D";
+  }else if(60>aa){
+    return "F";
+  }
+ }
+
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
@@ -223,6 +238,9 @@ function isOdd(aa){
  * @return {object} restaurant
  */
 
+function incrementReviews(){
+
+}
 
 /**
  * Joins two strings with a space.
