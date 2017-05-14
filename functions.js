@@ -181,14 +181,26 @@ function maximum(aa,bb){
  * @param {number} n
  * @return {boolean} the number is even
  */
-
+function isEven(aa){
+  if(aa%2===0){
+    return true;
+  }else{
+    return false;
+  }
+}
 
 /**
  * Returns true if `n` is odd.
  * @param {number} n
  * @return {boolean} the number is odd
  */
-
+function isOdd(aa){
+  if(aa%2!==0){
+    return true;
+  }else{
+    return false;
+  }
+}
 
 /**
  * Returns a letter grade.
