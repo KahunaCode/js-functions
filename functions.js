@@ -110,7 +110,13 @@ function calculate(operation, aa, bb){
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
-
+function isGreaterThan(aa, bb){
+  if (aa>bb){
+    return true;
+  }else{
+    return false;
+  }
+}
 
 /**
  * Returns true if `a` is less than `b`.
